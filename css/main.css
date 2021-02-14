@@ -1,0 +1,152 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap');
+
+/*Fuente*/
+
+body {
+   font-family: 'Lexend Mega', sans-serif;
+}
+
+
+/*Barra de Navegación*/
+
+.navbar {
+   background-color: #ffffff;
+}
+
+.navbar-brand {
+   max-height: 108px;
+}
+
+.logo-brand {
+   min-height: 100px;
+   max-height: 100px;
+}
+
+.navbar .navbar-collapse {
+   text-align: center;
+}
+
+.navbar .nav-link:hover {
+   color: #c58e07;
+ }
+
+.nav-link {
+   color: #424242;
+ }
+ 
+ .nav-link:hover {
+   color: #424242;
+ }
+
+.btn {
+   color: #ffffff;
+   background-color: #424242;
+   border-color: #ffffff;
+}
+
+.btn:hover {
+   color: #424242;
+   background-color: transparent;
+   border-color: #424242;
+}
+
+
+/*Primer Sección*/
+
+#primerseccion {
+   background-color: #ffffff;
+   color: #424242;
+}
+
+#primerseccion h3 {
+   color: #424242;
+}
+
+#primerseccion a {
+   color: #424242;
+}
+
+/*Segunda Sección*/
+
+#segundaseccion {
+   background-color: #7a8e7f;
+   color: #424242;
+}
+
+#segundaseccion a {
+   color: #424242;
+}
+
+/* Seccion 3 */
+
+#parallax {
+   background-image: url("../img/plaza.png");
+   background-size: cover;
+   color: #ffffff;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+
+ #parallax .container-fluid {
+   padding-top: 200px;
+   padding-bottom: 200px;
+ }
+
+ svg {
+   bottom: 0;
+   width: 100%;
+   height: 8vw;
+   /* set height to pixels if you want angle to change with screen width */
+ }
+
+ #parallax h3 {
+   color: #ffffff;
+}
+
+#parallax a {
+   color: #ffffff;
+}
+
+/*Pie de Página*/
+
+footer {
+   background-color: #7a8e7f;
+   color: #424242;
+   font-weight: 600;
+}
+
+hr {
+   background-color: #ffffff;
+}
+
+footer h3 {
+   color: #424242;
+}
+
+footer a {
+   color: #424242;
+}
+
+#footer-columna1 {
+   text-align: center;
+}
+
+#footer-columna2 {
+   text-align: left;
+}
+
+#footer-columna3 {
+   text-align: right;
+}
+
+
+
